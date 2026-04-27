@@ -12,3 +12,5 @@ def save_even_and_odd():
         for number in all_numbers:
             if number % 2 != 0:
                 odd_file.write(str(number) + "\n")
+# Run the function
+save_even_and_odd()

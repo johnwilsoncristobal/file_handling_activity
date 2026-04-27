@@ -7,3 +7,8 @@ def save_even_and_odd():
         for number in all_numbers:
             if number % 2 == 0:
                 even_file.write(str(number) + "\n")
+#Write the odd numbers
+    with open("odd_numbers.txt", "w") as odd_file:
+        for number in all_numbers:
+            if number % 2 != 0:
+                odd_file.write(str(number) + "\n")

@@ -1,4 +1,5 @@
-with open("./mylife.txt", "w") as life_file:
+# Open or Create the file mylife.txt in write"
+with (open("./mylife.txt", "w")) as life_file:
 # Ask for first line
     line = input("Enter line: ")
     life_file.write(line + "\n")
